@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <title>Ahmad Hamdani</title>
+
+</head>
+
+<body class="bg-blue-400 min-h-screen">
+  <header class="absolute w-full flex flex-col gap-4 items-center justify-center mt-8">
+    <div class="flex gap-4">
+      <svg class="w-10 align-middle text-white fill-current" viewBox="0 0 2470 1169" xmlns="http://www.w3.org/2000/svg">
+        <path d="M998.795 0.27832L1168.5 169.984L169.706 1168.78L0 999.073L998.795 0.27832Z" />
+        <path d="M1649.19 0.419922L1818.9 170.126L1529.36 459.664L1359.65 289.958L1649.19 0.419922Z" />
+        <path d="M1121.43 528.181L1291.14 697.886L820.289 1168.73L650.583 999.029L1121.43 528.181Z" />
+        <path d="M2300.15 0L2469.85 169.706L1854.63 784.932L1684.92 615.227L2300.15 0Z" />
+        <path d="M1446.7 853.449L1616.41 1023.15L1471.18 1168.38L1301.47 998.678L1446.7 853.449Z" />
+        <path d="M998.795 0.27832L1997.3 998.785L1827.6 1168.49L829.089 169.984L998.795 0.27832Z" />
+      </svg>
+
+      <h1 class="text-white text-base align-middle font-bold text-center">Ahmad Hamdani
+      </h1>
+    </div>
+    <h1 class="text-white text-2xl align-middle font-bold text-center">Simple Calculator With Tailwind & Javascript
+    </h1>
+  </header>
+
+  <main class="h-screen w-full flex items-center justify-center">
+    <section class="py-4 px-8 w-1/2 min-w-80 bg-white rounded-lg">
+      <p class="text-xl font-bold text-center mb-2">Calculator</p>
+      <h1 id="hasil" class="text-5xl font-bold text-right mb-4 min-h-12 break-words"></h1>
+      <h1 id="hasilKalkulator" class="text-2xl font-semibold text-right mb-4 min-h-6 break-words"></h1>
+      <div id="form_calculator" class="grid grid-cols-4 gap-4">
+        <button id="clear"
+          class="bg-red-600 text-white col-span-2 text-base font-medium px-4 py-2 tracking-wide rounded hover:bg-red-400 duration-300">C</button>
+        <button id="backspace"
+          class="bg-slate-800 text-white text-base font-medium px-4 py-2 tracking-wide rounded hover:bg-slate-500 duration-300">H</button>
+        <button id="bagi"
+          class="bg-slate-800 text-white text-base font-medium px-4 py-2 tracking-wide rounded hover:bg-slate-500 duration-300">:</button>
+        <button id="1"
+          class="bg-slate-800 text-white text-base font-medium px-4 py-2 tracking-wide rounded hover:bg-slate-500 duration-300">1</button>
+        <button id="2"
+          class="bg-slate-800 text-white text-base font-medium px-4 py-2 tracking-wide rounded hover:bg-slate-500 duration-300">2</button>
+        <button id="3"
+          class="bg-slate-800 text-white text-base font-medium px-4 py-2 tracking-wide rounded hover:bg-slate-500 duration-300">3</button>
+        <button id="kali"
+          class="bg-slate-800 text-white text-base font-medium px-4 py-2 tracking-wide rounded hover:bg-slate-500 duration-300">X</button>
+        <button id="4"
+          class="bg-slate-800 text-white text-base font-medium px-4 py-2 tracking-wide rounded hover:bg-slate-500 duration-300">4</button>
+        <button id="5"
+          class="bg-slate-800 text-white text-base font-medium px-4 py-2 tracking-wide rounded hover:bg-slate-500 duration-300">5</button>
+        <button id="6"
+          class="bg-slate-800 text-white text-base font-medium px-4 py-2 tracking-wide rounded hover:bg-slate-500 duration-300">5</button>
+        <button id="kurang"
+          class="bg-slate-800 text-white text-base font-medium px-4 py-2 tracking-wide rounded hover:bg-slate-500 duration-300">-</button>
+        <button id="7"
+          class="bg-slate-800 text-white text-base font-medium px-4 py-2 tracking-wide rounded hover:bg-slate-500 duration-300">7</button>
+        <button id="8"
+          class="bg-slate-800 text-white text-base font-medium px-4 py-2 tracking-wide rounded hover:bg-slate-500 duration-300">8</button>
+        <button id="9"
+          class="bg-slate-800 text-white text-base font-medium px-4 py-2 tracking-wide rounded hover:bg-slate-500 duration-300">9</button>
+        <button id="tambah"
+          class="bg-slate-800 text-white text-base font-medium px-4 py-2 tracking-wide rounded hover:bg-slate-500 duration-300">+</button>
+        <button id="0"
+          class="bg-slate-800 text-white text-base font-medium px-4 py-2 tracking-wide rounded hover:bg-slate-500 duration-300">0</button>
+        <button id="koma"
+          class="bg-slate-800 text-white text-base font-medium px-4 py-2 tracking-wide rounded hover:bg-slate-500 duration-300">,</button>
+        <button id="samaDengan"
+          class="bg-yellow-500 text-white col-span-2 text-base font-medium px-4 py-2 tracking-wide rounded hover:bg-yellow-300 duration-300">=</button>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
